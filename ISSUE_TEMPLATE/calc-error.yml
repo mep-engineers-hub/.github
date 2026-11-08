@@ -1,0 +1,23 @@
+name: Calculation error
+description: A tool in this organization gives a wrong result.
+labels: [calc-error]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not paste code tables, figures or excerpts. Cite document, edition and clause # only. No project data."
+  - type: input
+    id: tool
+    attributes: {label: Tool and version, placeholder: "repo name, release or commit"}
+    validations: {required: true}
+  - type: textarea
+    id: input
+    attributes: {label: Inputs you used (with units)}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected result and its source, description: "Worked example or citation: document, edition, clause #"}
+    validations: {required: true}
+  - type: textarea
+    id: actual
+    attributes: {label: What the tool gave}
+    validations: {required: true}
