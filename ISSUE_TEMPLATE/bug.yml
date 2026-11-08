@@ -1,0 +1,19 @@
+name: Bug report
+description: Something does not install, run or display correctly.
+labels: [bug]
+body:
+  - type: input
+    id: tool
+    attributes: {label: Tool and version}
+    validations: {required: true}
+  - type: input
+    id: platform
+    attributes: {label: OS and Python/runtime version}
+  - type: textarea
+    id: steps
+    attributes: {label: Steps to reproduce}
+    validations: {required: true}
+  - type: textarea
+    id: result
+    attributes: {label: What happened (error text, screenshot without project data)}
+    validations: {required: true}
