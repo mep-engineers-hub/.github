@@ -1,0 +1,25 @@
+name: Join request
+description: Suggest a practicing MEP engineer to join the organization.
+title: "Join request: <github-username>"
+labels: [join-request]
+body:
+  - type: markdown
+    attributes:
+      value: "Only the organization owner can send invitations. No personal contact details here; the owner will reach out via GitHub."
+  - type: input
+    id: username
+    attributes: {label: GitHub username}
+    validations: {required: true}
+  - type: textarea
+    id: background
+    attributes: {label: MEP background (one or two lines), description: "Discipline and years of practice. No employer client names."}
+    validations: {required: true}
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmations
+      options:
+        - label: The person has 2FA enabled on GitHub (required to join).
+          required: true
+        - label: The person has read the Code of Conduct and ground rules.
+          required: true
