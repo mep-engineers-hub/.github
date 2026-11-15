@@ -34,6 +34,6 @@ We link to, not copy, the broader directories: [Awesome AECO](https://github.com
 
 ## How to contribute
 
-Read [CONTRIBUTING](https://github.com/mep-engineers-hub/.github/blob/main/CONTRIBUTING.md). In short: shared repos change by pull request plus one review; each member tool repo is run by the member who created it; anyone can fork. To join, ask a member to open a Join request.
+Read [CONTRIBUTING](https://github.com/mep-engineers-hub/.github/blob/main/CONTRIBUTING.md). In short: shared repos change by pull request plus one review; each member tool repo is run by the member who created it; anyone can fork. To join, open a [Join request](https://github.com/mep-engineers-hub/.github/issues/new/choose) issue in the `.github` repo.
 
 See also the [DISCLAIMER](https://github.com/mep-engineers-hub/.github/blob/main/DISCLAIMER.md).

@@ -4,7 +4,7 @@ Thanks for helping. This file is the default for every repo in the organization 
 
 ## Before you start
 
-- Read the [Code of Conduct](CODE_OF_CONDUCT.md) and the [DISCLAIMER](DISCLAIMER.md).
+- Read the [Code of Conduct](https://github.com/mep-engineers-hub/.github/blob/main/CODE_OF_CONDUCT.md) and the [DISCLAIMER](https://github.com/mep-engineers-hub/.github/blob/main/DISCLAIMER.md).
 - Enable two-factor authentication on your GitHub account. The organization requires it.
 
 ## Hard rules (a PR that breaks one is closed)
